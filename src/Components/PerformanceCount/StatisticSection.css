@@ -1,0 +1,57 @@
+.stats-wrapper {
+  background-image: url("../../Assets/Home/performance-statistic-background.png"); /*path to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: nowrap; /* Prevents wrapping */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+  padding: 3rem 1rem;
+  /* background: rgba(64, 63, 63, 0.149); */
+  border-radius: 16px;
+  gap: 20px;
+  overflow-x: auto; /* Optional: allow scroll if screen is too small */
+}
+
+.stat {
+  flex: 0 0 22%; /* Fixed width ~25%, no grow, no shrink */
+  min-width: 150px; /* Optional safeguard */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  transition: all 0.3s ease-in-out;
+  color: whitesmoke;
+}
+
+.stat p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  color: whitesmoke;
+}
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .stat {
+    width: 100%;
+    max-width: 320px;
+  }
+}

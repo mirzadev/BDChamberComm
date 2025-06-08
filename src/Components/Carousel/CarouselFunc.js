@@ -1,14 +1,16 @@
 import React from "react";
 import Slider from "react-slick";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./CarouselFuncStyle.css";
-import img1 from "../../Assets/HomePageImg/scroll-1.jpg";
-import img2 from "../../Assets/HomePageImg/scroll-2.jpg";
-import img3 from "../../Assets/HomePageImg/scroll-3.jpg";
-import img4 from "../../Assets/HomePageImg/scroll-4.jpg";
-import img5 from "../../Assets/HomePageImg/scroll-5.jpg";
+import img1 from "../../Assets/Home/Carousel-1.png";
+import img2 from "../../Assets/Home/Carousel-2.png";
+import img3 from "../../Assets/Home/Carousel-3.png";
+import img4 from "../../Assets/Home/Carousel-4.png";
+import img5 from "../../Assets/Home/Carousel-5.png";
 // installed --  npm install react-slick slick-carousel
+// npm install react-icons
 
 const Carousel = () => {
   // Settings for react-slick carousel

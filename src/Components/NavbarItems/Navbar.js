@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BACC_Logo from "../Assets/Home/bacc_logo.png";
+import BACC_Logo from "../../Assets/Home/bacc_logo.png";
 import "./NavbarStyles.css";
 import { MenuItems, MenuItems1 } from "./MenuItems";
 import { Link } from "react-router-dom";

@@ -1,12 +1,12 @@
 import "./FooterStyles.css";
-import FaceBook from "../Assets/footerItem/Facebook.png";
-import Twiter from "../Assets/footerItem/Twiter.png";
-import YouTube from "../Assets/footerItem/YouTube.png";
-import Location from "../Assets/footerItem/Location_Symbol.png";
-import Telephone from "../Assets/footerItem/Telephone_Logo.png";
-import Email from "../Assets/footerItem/Email_Logo.png";
-import pspTechLogo from "../Assets/footerItem/pspTech-logo.png";
-import BACCLogo from "../Assets/Home/bacc_logo.png";
+import FaceBook from "../../Assets/footerItem/Facebook.png";
+import Twiter from "../../Assets/footerItem/Twiter.png";
+import YouTube from "../../Assets/footerItem/YouTube.png";
+import Location from "../../Assets/footerItem/Location_Symbol.png";
+import Telephone from "../../Assets/footerItem/Telephone_Logo.png";
+import Email from "../../Assets/footerItem/Email_Logo.png";
+import pspTechLogo from "../../Assets/footerItem/pspTech-logo.png";
+import BACCLogo from "../../Assets/Home/bacc_logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
